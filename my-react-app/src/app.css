@@ -1,0 +1,206 @@
+body {
+  margin-top: 20px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.popup {
+  max-width: 400px !important;
+}
+
+.card-image {
+  height: 350px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+}
+ 
+.App-header {  
+  display: flex; 
+  flex-direction: row; 
+  background-color:  #1B191E; 
+  font-family: 'Times', serif; 
+  font-style: normal; 
+  font-size: 1.25vw; 
+  text-align: left;          
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  }
+ 
+#app-header_1  {
+  flex: 0 0 100px; 
+  margin: 2px; 
+  font-size: 3vw; 
+  font-weight: bold;
+  padding-left: 110px;
+  
+  }
+        
+#app-header_2 {
+  flex: 1 1 75px; 
+  }
+ 
+#app-header_3 {
+  flex: 1 1 75px; 
+  }
+           
+#app-header_4 {
+  flex: 1 1 75px; 
+ 
+  }
+
+#app-header_5 {
+  flex: 1 1 75px; 
+  }
+
+.App-footer {  
+  display: grid; 
+  grid-template-columns: 100px 200px 50px repeat(3, 1fr); 
+  grid-template-rows: 1fr 50px; 
+  background-color:  #1B191E; 
+  font-family: 'Times', serif; 
+  font-style: normal; 
+  font-size: 1.25vw;
+  color: white;
+  margin-top: 10px;
+  padding-top: 30px;
+ }
+
+    
+#footer_1  {
+  grid-column: 2; 
+  grid-row: 1; 
+  font-size: 2vw; 
+  font-weight: bold;
+  text-align: center;   
+  }
+   
+#footer_2 {  
+  grid-column: 4; 
+  grid-row:1; 
+}
+
+
+#footer_3 { 
+  grid-column:5; 
+  grid-row:1;  
+}
+      
+#footer_4 { 
+  grid-column: 6; 
+  grid-row:1; 
+} 
+
+#footer_5 {
+ grid-column:2 / span 6 ; 
+ grid-row: 2; 
+ text-align: center;
+ font-size: 15px;
+}
+span {
+  color:orange;
+}
+.HomePage {
+  position: relative;
+  height: 500px;
+  background-image: url('./assets/katalog_marki.jpg'); 
+  background-size: 100%;  
+  background-repeat: no-repeat; 
+}
+.Page { 
+  position: absolute;
+  top:20%;
+  left: 30%;
+  width: 40%; 
+  font-family:  'Times', serif; 
+  font-weight: bold;
+  text-align: center; 
+  }
+
+
+#TEXT1 {
+  margin: 0px; 
+  padding: 5px;
+  color:#FF6600;
+  font-size: 2vw; 
+  letter-spacing: 2px;
+  } 
+#TEXT2 { 
+  font-size: 2vw;  
+  } 
+
+.modalbox {
+  color:whitesmoke;
+  display:block;
+  cursor:pointer;
+  padding: 10px 11px;
+  font-size:1.2em;
+  border:solid 1px #F9F9F9;
+  border-radius:2px;
+  background:#FF6600;
+  width:200px;
+  text-decoration:none;
+  text-align:center;
+  margin:0 auto 20px;
+  letter-spacing: 2px; 
+  }
+ .modalbox:hover {
+   background: lightblue; 
+   box-shadow: 5px 5px 7px lightgray;
+   color: white;
+   transform: scale(1.2);
+   letter-spacing: 2px;  
+  }
+
+#Foto1 {
+  float:left;
+  width:20%;
+  border-radius: 20px;
+}
+.forLinks {
+  height:30px;
+  padding: auto;
+  background-color: linen;
+}
+.PageLink {
+  color: black;
+  margin: 30px;
+  font-size: 1.5vw;
+  font-family: 'Times', serif; 
+  font-style: normal; 
+  
+}
+
+.ActivePageLink {
+  font-weight: bold;
+}
+.Contacts { 
+  display: flex; 
+  flex-direction: row;  
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  margin: 40px;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+.Contacts_map { 
+  flex: 0 0 100px; 
+  padding: 10px; 
+}
+.Contacts_form { 
+  flex:  1 1 100px; 
+  padding: 30px ; 
+  font-family:'Times', serif;  
+  font-size: 16px; 
+}
+.Contacts_free { 
+  flex:  0 0 200px; 
+  padding: 30px ; 
+  font-family:'Times', serif;  
+  font-size: 16px;  
+}
